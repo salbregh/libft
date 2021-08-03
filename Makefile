@@ -3,10 +3,10 @@
 #                                                         ::::::::             #
 #    Makefile                                           :+:    :+:             #
 #                                                      +:+                     #
-#    By: sannealbreghs <sannealbreghs@student.co      +#+                      #
+#    By: salbregh <salbregh@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
-#    Created: 2019/11/21 13:28:31 by sannealbreg   #+#    #+#                  #
-#    Updated: 2020/05/25 11:42:45 by salbregh      ########   odam.nl          #
+#    Created: 2021/08/03 18:43:08 by salbregh      #+#    #+#                  #
+#    Updated: 2021/08/03 22:46:30 by salbregh      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -57,11 +57,11 @@ CFLAGS	=	-Wall -Werror -Wextra
 all:	$(NAME)
 
 $(NAME): $(LIB)
-			ar rc $(NAME) $(LIB)
-			ranlib $(NAME)
+			@ar rc $(NAME) $(LIB)
+			@ranlib $(NAME)
 
 %.o: %.c
-			gcc -o $@ -c $< $(FLAGS)
+			@gcc -o $@ -c $< $(FLAGS)
 
 clean:
 			@/bin/rm -f $(LIB)
