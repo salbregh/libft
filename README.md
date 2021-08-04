@@ -4,7 +4,7 @@
 
 ***
 
-**####RULES**
+### RULES
 * Code is writtin according to the Norm
 * All code must compile with flags -Wall -Werror -Wextra
 * No memory leaks allowed
