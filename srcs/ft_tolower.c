@@ -1,20 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   ft_isdigit.c                                       :+:    :+:            */
+/*   ft_tolower.c                                       :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: salbregh <marvin@codam.nl>                   +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/10/29 12:18:51 by salbregh       #+#    #+#                */
-/*   Updated: 2019/11/27 13:48:58 by sannealbreg   ########   odam.nl         */
+/*   Created: 2019/10/31 12:37:06 by salbregh      #+#    #+#                 */
+/*   Updated: 2021/08/04 17:44:52 by salbregh      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int		ft_isdigit(int c)
+int	ft_tolower(int c)
 {
-	if (c >= 48 && c <= 57)
-		return (1);
-	return (0);
+	if (c >= 65 && c <= 90)
+		return (c + 32);
+	return (c);
 }

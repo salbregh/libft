@@ -5,8 +5,8 @@
 /*                                                     +:+                    */
 /*   By: sannealbreghs <sannealbreghs@student.co      +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/11/22 12:43:18 by sannealbreg    #+#    #+#                */
-/*   Updated: 2019/11/27 13:46:26 by sannealbreg   ########   odam.nl         */
+/*   Created: 2019/11/22 12:43:18 by sannealbreg   #+#    #+#                 */
+/*   Updated: 2021/08/04 17:49:46 by salbregh      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ static long int	check_atoi(unsigned long int result, const char *str, int neg)
 	return (result);
 }
 
-int				ft_atoi(const char *str)
+int	ft_atoi(const char *str)
 {
 	unsigned long int	result;
 	int					neg;

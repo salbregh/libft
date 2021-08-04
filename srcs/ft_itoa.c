@@ -5,8 +5,8 @@
 /*                                                     +:+                    */
 /*   By: sannealbreghs <sannealbreghs@student.co      +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/11/22 12:48:11 by sannealbreg    #+#    #+#                */
-/*   Updated: 2019/11/22 18:20:46 by salbregh      ########   odam.nl         */
+/*   Created: 2019/11/22 12:48:11 by sannealbreg   #+#    #+#                 */
+/*   Updated: 2021/08/04 17:47:12 by salbregh      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ static int	ft_len_itoa(int n)
 
 static void	ft_fill_array(char *str, int n, int len)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	str[len] = '\0';
@@ -51,7 +51,7 @@ static void	ft_fill_array(char *str, int n, int len)
 	}
 }
 
-char		*ft_itoa(int n)
+char	*ft_itoa(int n)
 {
 	int		len;
 	char	*str;

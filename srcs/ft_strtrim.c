@@ -5,14 +5,14 @@
 /*                                                     +:+                    */
 /*   By: salbregh <marvin@codam.nl>                   +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/11/26 08:09:47 by salbregh       #+#    #+#                */
-/*   Updated: 2019/11/27 13:56:22 by sannealbreg   ########   odam.nl         */
+/*   Created: 2019/11/26 08:09:47 by salbregh      #+#    #+#                 */
+/*   Updated: 2021/08/04 17:46:15 by salbregh      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static int		ft_begin(const char *s1, char const *set)
+static int	ft_begin(const char *s1, char const *set)
 {
 	int		instr;
 	int		inset;
@@ -32,7 +32,7 @@ static int		ft_begin(const char *s1, char const *set)
 	return (instr);
 }
 
-static int		ft_end(const char *s1, char const *set)
+static int	ft_end(const char *s1, char const *set)
 {
 	int		instr;
 	int		inset;
@@ -52,7 +52,7 @@ static int		ft_end(const char *s1, char const *set)
 	return (instr);
 }
 
-char			*ft_strtrim(char const *s1, char const *set)
+char	*ft_strtrim(char const *s1, char const *set)
 {
 	int		i;
 	int		begin;
