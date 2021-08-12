@@ -35,4 +35,4 @@
 * **strlen** -- find length of string
     * *size_t strlen(const char *s)*
 * **memset** -- fill a byte string with a byte value
-    * *void *memset(void *b, int c, size_t len)*
+    * `void *memset(void *b, int c, size_t len)`
