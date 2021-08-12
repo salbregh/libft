@@ -23,16 +23,16 @@
 ***
 ### Funtions
 * **isapla** -- alpabetic character test
-*int isalpha(int c)*
+    * *int isalpha(int c)*
 * **isdigit** -- decimal digit character test
-*int isdigit(int c)*
+    * *int isdigit(int c)*
 * **isalnum** -- alphanumeric character test
-*int isalnum(int c)*
+    * *int isalnum(int c)*
 * **isascii** -- test for ASCII character
-*int isascii(int c)*
+    * *int isascii(int c)*
 * **isprint** -- printing character test, space character inclusive
-*int isprint(int c)*
+    * *int isprint(int c)*
 * **strlen** -- find length of string
-*size_t strlen(const char *s)*
+    * *size_t strlen(const char *s)*
 * **memset** -- fill a byte string with a byte value
-*void *memset(void *b, int c, size_t len)*
+    * *void *memset(void *b, int c, size_t len)*
