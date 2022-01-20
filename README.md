@@ -7,6 +7,16 @@
 
 ### Usage
 
+### How to compile the libft library
+* Clone this git repository
+`git clone https://github.com/salbregh/libft.git`
+
+* Go into the root of the directory <br>
+`cd libft`
+
+* Run the make command, which will create the libft.a library<br>
+`make`
+
 
 ### RULES
 * Code is writtin according to the 42 network norm
