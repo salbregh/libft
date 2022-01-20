@@ -1,11 +1,15 @@
 # LIBFT
 
-##### My first 42 network project at Codam. This project codes a C library regrouping usual function that are allowed to be used in future school projects. The aim of rewriting the functions is to get a full understanding of how they work and how to use them.
+##### My first 42 network project, reimplementing my own C standard function library. The aim of this project is understanding how the standard functions in C work. The aim of rewriting the functions is to get a full understanding of how they work and how/when to use them.
+
 
 ***
 
+### Usage
+
+
 ### RULES
-* Code is writtin according to the Norm
+* Code is writtin according to the 42 network norm
 * All code must compile with flags -Wall -Werror -Wextra
 * No memory leaks allowed
 * Forbidden to use global variables
@@ -13,34 +17,43 @@
     * malloc
     * free
     * write
-* Must include a Makefile with the following rules:
-    * ${NAME}
-    * all
-    * clean
-    * fclean
-    * re
+* Must include a Makefile
 
 ***
 ### Funtions
-* **isapla** -- alpabetic character test
-    * `int isalpha(int c)`
-* **isdigit** -- decimal digit character test
-    * `int isdigit(int c)`
-* **isalnum** -- alphanumeric character test
-    * `int isalnum(int c)`
-* **isascii** -- test for ASCII character
-    * `int isascii(int c)`
-* **isprint** -- printing character test, space character inclusive
-    * `int isprint(int c)`
-* **strlen** -- find length of string
-    * `size_t strlen(const char *s)`
-* **memset** -- fill a byte string with a byte value
-    * `void *memset(void *b, int c, size_t len)`
-* **bzero** -- write zeroes to a byte string
-    * `void bzero(void *s, size_t n)`
-* **memcpy** -- copy memory area
-    * `void *memcpy(void *dst, const void *src, size_t n)`
-* **memmove** -- copy byte string
-    * `void *memmove(void *dst, const void *src, size_t len)`
-* **strlcpy** -- size bounded string copying and concatenation
-    * `size_t strlcpy*char *dst, const char *src, size_t dstsize)`
+The functions needed to be implemented following original ones:
+* isalpha
+* isdigit
+* isalnum
+* isascii
+* isprint
+* strlen
+* memset
+* bzero
+* memcpy
+* memmove
+* strlcpy
+* strlcat
+* toupper
+* tolower
+* strchr
+* strrchr
+* strncmp
+* memchr
+* memcmp
+* strnstr
+* atoi
+* calloc
+* strdup
+
+Additional function to implement:
+* ft_substr
+* ft_strjoin
+* ft_strtrim
+* ft_split
+* ft_itoa
+* ft_strmapi
+* ft_putchar_fd
+* ft_putstr_fd
+* ft_putendl_fd
+* ft_putnbr_fd
