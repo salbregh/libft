@@ -2,10 +2,7 @@
 
 ##### My first 42 network project, reimplementing my own C standard function library. The aim of this project is understanding how the standard functions in C work. The aim of rewriting the functions is to get a full understanding of how they work and how/when to use them.
 
-
 ***
-
-### Usage
 
 ### How to compile the libft library
 * Clone this git repository
